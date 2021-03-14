@@ -14,8 +14,17 @@ def get_text_messages(message):
                   'true': 'правда',
                   'you': 'ти',
                   'food': 'їжа',
-                  'cat': 'кіт'
-                  }
+                  'cat': 'кіт',
+                  'weakly':'слабко',
+                  'flow': 'потік',
+                  'probably': 'мабуть',
+                  'dimension': 'розмірність',
+                  'compliant': 'сумісний',
+                  'solve': 'рішення',
+                  'convert': 'перетворити',
+                  'implement': 'впровадити',
+                  'relatively': 'відносно',
+                  'exist': 'існувати'}
 
     if message.text.lower() == 'привіт':
         bot.send_message(message.from_user.id, f'Привіт, {message.from_user.first_name}')
